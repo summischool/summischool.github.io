@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Summi School — samen leren en spelen</title>
-<meta name="description" content="Summi School: spelenderwijs schrijven, rekenen, lezen en de wereld ontdekken voor kinderen van 3–5 jaar. In het Nederlands, Engels en Spaans. Geen account, geen tracking.">
+<title>Summi School · samen leren en spelen</title>
+<meta name="description" content="Summi School: spelenderwijs schrijven, rekenen, lezen, puzzelen, speuren, muziek maken en de wereld ontdekken voor kinderen van 3 tot 5 jaar. In het Nederlands, Engels en Spaans. Geen account, geen tracking.">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<meta property="og:title" content="Summi School — samen leren en spelen">
-<meta property="og:description" content="Vier vrolijke leerreizen voor kinderen van 3–5 jaar: schrijven, rekenen, woordjes en wereldkennis. In drie talen, zonder account of tracking.">
-<meta property="og:image" content="https://strike-wings-games.github.io/summischool/assets/og.jpg">
-<meta property="og:url" content="https://strike-wings-games.github.io/summischool/">
+<meta property="og:title" content="Summi School · samen leren en spelen">
+<meta property="og:description" content="Zeven vrolijke leerreizen voor kinderen van 3 tot 5 jaar: schrijven, rekenen, woordjes, wereldkennis, puzzels, speurtochten en muziek. In drie talen, zonder account of tracking.">
+<meta property="og:image" content="https://summischool.github.io/assets/og.jpg">
+<meta property="og:url" content="https://summischool.github.io/">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -65,16 +65,20 @@
   <img class="hero-cloud cloud-b" src="assets/art/cut_wolk.png" alt="" data-parallax="0.30">
   <img class="hero-cloud cloud-c" src="assets/art/cut_wolk.png" alt="" data-parallax="0.16">
   <img class="hero-balloon" src="assets/art/cut_feestballon.png" alt="" data-parallax="0.24">
+  <img class="hero-luchtballon" src="assets/art/cut_luchtballon.png" alt="" data-parallax="0.18">
+  <img class="hero-vogel" src="assets/art/cut_vogel.png" alt="" aria-hidden="true">
   <img class="hero-butterfly" src="assets/art/cut_vlinder.png" alt="" data-parallax="0.28">
+  <img class="hero-butterfly-b" src="assets/art/cut_vlinder.png" alt="" data-parallax="0.22">
+  <img class="hero-bij" src="assets/art/cut_bij.png" alt="" aria-hidden="true">
 
   <!-- the big paper stack: title on the sky, rainbow rising behind the grass -->
   <img class="hero-rainbow" src="assets/art/cut_regenboog.png" alt="" data-parallax="0.06">
   <div class="hero-stack">
     <h1 class="hero-title playful" data-i18n="heroTitle">Summi School</h1>
     <p class="hero-tagline" data-i18n="heroTagline">samen leren en spelen</p>
-    <p class="hero-sub" data-i18n="heroSub">Vier vrolijke leerreizen voor kinderen van 3–5 jaar —
-       schrijven, rekenen, lezen en de wereld ontdekken. Volledig ingesproken
-       in het Nederlands, Engels en Spaans.</p>
+    <p class="hero-sub" data-i18n="heroSub">Zeven vrolijke leerreizen voor kinderen van 3 tot 5 jaar:
+       schrijven, rekenen, lezen, puzzelen, speuren, muziek en de wereld ontdekken.
+       Alles wordt voorgelezen, in het Nederlands, Engels en Spaans.</p>
     <div class="hero-cta">
       <a class="wood-sign" href="#journeys">
         <span data-i18n="heroCta">Binnenkort in de App Store</span>
@@ -83,6 +87,8 @@
     </div>
   </div>
   <img class="hero-unicorn" src="assets/art/cut_eenhoorn.png" alt="">
+  <img class="hero-bloem bloem-a" src="assets/art/cut_bloem.png" alt="" aria-hidden="true">
+  <img class="hero-bloem bloem-b" src="assets/art/cut_tulp.png" alt="" aria-hidden="true">
 
   <!-- de optocht: the game's own sticker parade -->
   <div class="parade" aria-hidden="true">
@@ -91,22 +97,22 @@
 </section>
 
 <!-- ======================= stats stickers ======================= -->
-<section class="stats" id="journeys">
+<section class="stats" id="journeys" data-confetti>
   <div class="stats-row">
     <div class="stat-sticker reveal" style="--tilt:-2.4deg">
-      <span class="stat-number">4</span>
+      <span class="stat-number" data-count="7">7</span>
       <span class="stat-label" data-i18n="statJourneys">leerreizen</span>
     </div>
     <div class="stat-sticker reveal" style="--tilt:1.8deg">
-      <span class="stat-number">1000</span>
+      <span class="stat-number" data-count="1750">1750</span>
       <span class="stat-label" data-i18n="statLevels">levels</span>
     </div>
     <div class="stat-sticker reveal" style="--tilt:-1.6deg">
-      <span class="stat-number">3</span>
+      <span class="stat-number" data-count="3">3</span>
       <span class="stat-label" data-i18n="statLanguages">talen</span>
     </div>
     <div class="stat-sticker reveal" style="--tilt:2.2deg">
-      <span class="stat-number">0</span>
+      <span class="stat-number" data-count="0">0</span>
       <span class="stat-label" data-i18n="statTracking">tracking</span>
     </div>
   </div>
@@ -115,19 +121,21 @@
 <!-- ======================= schrijven — the whiteboard ======================= -->
 <section class="course course-write" id="schrijven">
   <div class="divider divider-write" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,60 C240,20 480,90 720,55 C960,20 1200,80 1440,45 L1440,90 L0,90 Z"/></svg></div>
+  <div class="letter-drift" aria-hidden="true">
+    <span style="--tilt:-6deg">a</span><span style="--tilt:5deg">b</span><span style="--tilt:-4deg">c</span>
+  </div>
   <div class="course-inner">
     <div class="course-copy reveal">
       <span class="course-chip chip-green" data-i18n="writeChip">leerreis 1</span>
       <h2 class="course-title playful" data-i18n="writeTitle">Schrijven</h2>
       <p class="course-sub" data-i18n="writeSub">Grote letters op het schoolbord</p>
-      <p class="course-text" data-i18n="writeText">Een vrolijk krijtje doet elke lijn voor — en dan
-         is je kind aan de beurt. 250 levels lang, van de allereerste <b>a</b>
-         tot hele woorden schrijven, met sterren, confetti en applaus van de
-         vriendjes.</p>
+      <p class="course-text" data-i18n="writeText">Een vrolijk krijtje doet elke lijn voor, en dan
+         is je kind aan de beurt. In 250 levels groeit dat van de allereerste <b>a</b>
+         naar hele woorden. Bij drie sterren regent het confetti en klappen de vriendjes.</p>
       <ul class="course-points">
-        <li data-i18n="writeP1">Elke letterstreek wordt voorgedaan</li>
+        <li data-i18n="writeP1">Elke letterstreek wordt eerst voorgedaan</li>
         <li data-i18n="writeP2">Echte schoolschrijfletters</li>
-        <li data-i18n="writeP3">Nooit een foutscherm — gewoon nog een keer</li>
+        <li data-i18n="writeP3">Geen foutschermen, je mag gewoon nog een keer</li>
       </ul>
     </div>
     <div class="course-art">
@@ -136,6 +144,8 @@
       </figure>
       <img class="float-sticker float-krijtje" src="assets/art/cut_krijtje.png" alt="" aria-hidden="true">
       <img class="float-sticker float-potlood" src="assets/art/cut_potlood.png" alt="" aria-hidden="true">
+      <img class="float-sticker float-gum" src="assets/art/cut_gum.png" alt="" aria-hidden="true">
+      <img class="float-sticker float-boek" src="assets/art/cut_boek.png" alt="" aria-hidden="true">
     </div>
   </div>
 </section>
@@ -143,17 +153,20 @@
 <!-- ======================= rekenen — the beach ======================= -->
 <section class="course course-math" id="rekenen">
   <div class="divider divider-math" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,45 C260,85 520,15 780,55 C1040,90 1240,25 1440,60 L1440,90 L0,90 Z"/></svg></div>
+  <div class="digit-drift" aria-hidden="true">
+    <span style="--tilt:-5deg">1</span><span style="--tilt:6deg">2</span><span style="--tilt:-3deg">3</span>
+  </div>
   <div class="course-inner course-flip">
     <div class="course-copy reveal">
       <span class="course-chip chip-sky" data-i18n="mathChip">leerreis 2</span>
       <h2 class="course-title playful" data-i18n="mathTitle">Rekenen</h2>
       <p class="course-sub" data-i18n="mathSub">Tellen met appels en eieren</p>
-      <p class="course-text" data-i18n="mathText">Slepen, tikken en tellen met echte papieren
-         spulletjes: eerst tot 3, dan tot 20. Plus en min komen vanzelf — en
-         halverwege verschijnen de echte cijfers, tot aan 10 + 10 = 20.</p>
+      <p class="course-text" data-i18n="mathText">Je kind sleept appels in het mandje en telt hardop
+         mee: eerst tot 3, later tot 20. Halverwege komen de echte cijfers erbij, en
+         het eindigt groots met 10 + 10 = 20.</p>
       <ul class="course-points">
         <li data-i18n="mathP1">Tellen, vergelijken, erbij en eraf</li>
-        <li data-i18n="mathP2">Elke som met vrolijke voorwerpen</li>
+        <li data-i18n="mathP2">Elke som met papieren spulletjes</li>
         <li data-i18n="mathP3">Cijfers verschijnen precies op tijd</li>
       </ul>
     </div>
@@ -164,6 +177,8 @@
       <img class="float-sticker float-appel" src="assets/art/cut_appel.png" alt="" aria-hidden="true">
       <img class="float-sticker float-ei" src="assets/art/cut_ei.png" alt="" aria-hidden="true">
       <img class="float-sticker float-aardbei" src="assets/art/cut_aardbei.png" alt="" aria-hidden="true">
+      <img class="float-sticker float-zandkasteel" src="assets/art/cut_zandkasteel.png" alt="" aria-hidden="true">
+      <img class="float-sticker float-schelp" src="assets/art/cut_schelp.png" alt="" aria-hidden="true">
     </div>
   </div>
 </section>
@@ -173,16 +188,19 @@
   <div class="divider divider-jungle" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,55 C200,15 420,85 700,50 C980,15 1220,80 1440,40 L1440,90 L0,90 Z"/></svg></div>
   <img class="jungle-plate" src="assets/backdrops/forest.jpg" alt="" loading="lazy" data-parallax="0.10">
   <div class="jungle-beams" aria-hidden="true"><i></i><i></i><i></i></div>
-  <div class="fireflies" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="fireflies" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="vine vine-a" aria-hidden="true"><img class="vine-monkey" src="assets/art/cut_aap.png" alt=""></div>
+  <img class="jungle-papegaai" src="assets/art/cut_papegaai.png" alt="" aria-hidden="true">
+  <img class="jungle-toekan" src="assets/art/cut_toekan.png" alt="" aria-hidden="true">
   <div class="course-inner">
     <div class="course-copy reveal on-dark">
       <span class="course-chip chip-jungle" data-i18n="wordsChip">leerreis 3</span>
       <h2 class="course-title playful" data-i18n="wordsTitle">Woordjes</h2>
       <p class="course-sub" data-i18n="wordsSub">Leren lezen in het Toverbos</p>
-      <p class="course-text" data-i18n="wordsText">Van <b>mama</b> en <b>papa</b> tot
+      <p class="course-text" data-i18n="wordsText">Van <b>mama</b> en <b>papa</b> naar
          <b>boom</b>, <b>roos</b> en <b>vos</b>: je kind leert woordjes
-         herkennen, bouwen en lezen, letter voor letter. En helemaal aan het
-         eind worden twee woordjes één — regen + boog = regenboog!</p>
+         herkennen, bouwen en lezen, letter voor letter. Helemaal aan het
+         eind worden twee woordjes één: regen + boog = regenboog!</p>
       <ul class="course-points">
         <li data-i18n="wordsP1">Plaatje en woord horen bij elkaar</li>
         <li data-i18n="wordsP2">Woorden bouwen, letter voor letter</li>
@@ -196,6 +214,7 @@
       <img class="float-sticker float-vos" src="assets/art/cut_vos.png" alt="" aria-hidden="true">
       <img class="float-sticker float-uil" src="assets/art/cut_uil.png" alt="" aria-hidden="true">
       <img class="float-sticker float-paddenstoel" src="assets/art/cut_paddenstoel.png" alt="" aria-hidden="true">
+      <img class="float-sticker float-kikker" src="assets/art/cut_kikker.png" alt="" aria-hidden="true">
     </div>
   </div>
 </section>
@@ -209,8 +228,8 @@
       <h2 class="course-title playful" data-i18n="wkTitle">Wereld</h2>
       <p class="course-sub" data-i18n="wkSub">Weten hoe alles heet</p>
       <p class="course-text" data-i18n="wkText">Wat eet de muis? Bij wie hoort het kuiken? Tien
-         werelden vol weetjes: de boerderij, je eigen lijf, het bos en het
-         weer, de zee, de ruimte — tot aan de regenboog.</p>
+         werelden vol weetjes over de boerderij, je eigen lijf, het bos, het
+         weer, de zee en de ruimte, helemaal tot aan de regenboog.</p>
       <ul class="course-points">
         <li data-i18n="wkP1">Luister-, sleep- en zoekvragen</li>
         <li data-i18n="wkP2">Trek de lijn van het kuiken naar de kip</li>
@@ -222,8 +241,48 @@
         <img src="assets/shots/wk_farm.jpg" alt="Wereldles: wat eet de muis?" loading="lazy" decoding="async">
       </figure>
       <img class="float-sticker float-koe" src="assets/art/cut_koe.png" alt="" aria-hidden="true">
-      <img class="float-sticker float-kuiken" src="assets/art/cut_kuiken.png" alt="" aria-hidden="true">
+      <img class="float-sticker float-vulkaan" src="assets/art/cut_vulkaan.png" alt="" aria-hidden="true">
       <img class="float-sticker float-aardbol" src="assets/art/cut_planeet.png" alt="" aria-hidden="true">
+      <div class="yarn-pair" aria-hidden="true">
+        <img class="yarn-kuiken" src="assets/art/cut_kuiken.png" alt="">
+        <svg class="yarn-line" viewBox="0 0 160 46" preserveAspectRatio="none"><path d="M6 10 Q80 46 154 12"/></svg>
+        <img class="yarn-kip" src="assets/art/cut_kip.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= drie nieuwe reizen ======================= -->
+<section class="trio" id="nieuw">
+  <div class="divider divider-trio" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,50 C230,88 470,18 720,58 C980,88 1220,22 1440,52 L1440,90 L0,90 Z"/></svg></div>
+  <div class="trio-inner">
+    <h2 class="section-title playful reveal" data-i18n="trioTitle">En er kwamen er nog drie bij</h2>
+    <p class="section-sub reveal" data-i18n="trioSub">Puzzels, speurtochten en muziek: samen nog eens 750 levels.</p>
+    <div class="trio-row">
+      <div class="trio-card trio-pz reveal" style="--tilt:-1.6deg">
+        <img class="trio-shot" src="assets/shots/pz_jigsaw.jpg" alt="Puzzels: een legpuzzel in stukjes" loading="lazy" decoding="async">
+        <span class="course-chip chip-pz" data-i18n="pzChip">leerreis 5</span>
+        <h3 data-i18n="pzCardTitle">Puzzels</h3>
+        <p data-i18n="pzCardText">Patronen afmaken, memory, sorteren op grootte en echte legpuzzels met wiebelrandjes. Het laatste level is een regenboog in zes stukken.</p>
+        <img class="trio-sticker trio-sticker-a" src="assets/art/cut_blokken.png" alt="" aria-hidden="true">
+        <img class="trio-sticker trio-sticker-b" src="assets/art/cut_tol.png" alt="" aria-hidden="true">
+      </div>
+      <div class="trio-card trio-speur reveal" style="--tilt:1.4deg">
+        <img class="trio-shot" src="assets/shots/speur_seek.jpg" alt="Speurtocht: zoek de vriendjes" loading="lazy" decoding="async">
+        <span class="course-chip chip-speur" data-i18n="speurChip">leerreis 6</span>
+        <h3 data-i18n="speurCardTitle">Speurtocht</h3>
+        <p data-i18n="speurCardText">Doolhoven, zoekplaten en schaduwen raden. De allerjongsten oefenen er ongemerkt hun schrijfhand mee.</p>
+        <img class="trio-sticker trio-sticker-a" src="assets/art/cut_verrekijker.png" alt="" aria-hidden="true">
+        <img class="trio-sticker trio-sticker-b" src="assets/art/cut_schatkaart.png" alt="" aria-hidden="true">
+      </div>
+      <div class="trio-card trio-music reveal" style="--tilt:-1.2deg">
+        <img class="trio-shot" src="assets/shots/music_band.jpg" alt="Muziek: de dierenband speelt" loading="lazy" decoding="async">
+        <span class="course-chip chip-music" data-i18n="musicChip">leerreis 7</span>
+        <h3 data-i18n="musicCardTitle">Muziek</h3>
+        <p data-i18n="musicCardText">Ritmes natrommelen, liedjes spelen op de regenboogxylofoon en een slaperige dierenband wakker tikken. Geluid is hier de beloning.</p>
+        <img class="trio-sticker trio-sticker-a" src="assets/art/cut_trommel.png" alt="" aria-hidden="true">
+        <img class="trio-sticker trio-sticker-b" src="assets/art/cut_xylofoon.png" alt="" aria-hidden="true">
+      </div>
     </div>
   </div>
 </section>
@@ -233,22 +292,27 @@
   <div class="divider divider-cinema" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,50 C280,15 560,85 840,45 C1100,15 1300,75 1440,50 L1440,90 L0,90 Z"/></svg></div>
   <div class="cinema-inner">
     <h2 class="section-title playful on-dark reveal" data-i18n="videoTitle">Kijk eens mee</h2>
-    <p class="section-sub on-dark reveal" data-i18n="videoSub">Zo speelt Summi School: rustig, vrolijk en zonder haast.</p>
+    <p class="section-sub on-dark reveal" data-i18n="videoSub">Zo speelt Summi School: rustig en zonder haast.</p>
     <div class="tv reveal">
+      <div class="tv-lights" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <img class="tv-peek" src="assets/art/mascot_kaazie_idle.png" alt="" aria-hidden="true">
       <video id="gameplay" playsinline muted loop preload="metadata"
              poster="assets/shots/menu_nl.jpg">
         <source src="assets/video/gameplay.mp4" type="video/mp4">
       </video>
     </div>
+    <img class="cinema-popcorn" src="assets/art/cut_popcorn.png" alt="" aria-hidden="true">
   </div>
 </section>
 
 <!-- ======================= gallery — sticker album ======================= -->
-<section class="gallery" id="gallery">
+<section class="gallery" id="gallery" data-confetti>
   <div class="divider divider-gallery" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,45 C220,85 480,15 740,55 C1000,88 1240,25 1440,60 L1440,90 L0,90 Z"/></svg></div>
   <div class="gallery-head">
     <h2 class="section-title playful reveal" data-i18n="galleryTitle">Uit het prentenboek</h2>
-    <p class="section-sub reveal" data-i18n="gallerySub">Elke wereld is met de hand geknipt en geplakt — blader maar door.</p>
+    <p class="section-sub reveal" data-i18n="gallerySub">Elke wereld is met de hand geknipt en geplakt. Blader maar door.</p>
+    <img class="gallery-schaar" src="assets/art/cut_schaar.png" alt="" aria-hidden="true">
+    <img class="gallery-lijm" src="assets/art/cut_lijm.png" alt="" aria-hidden="true">
   </div>
   <div class="shelf" data-drift="left"><div class="shelf-track" id="shelf1"></div></div>
   <div class="shelf" data-drift="right"><div class="shelf-track" id="shelf2"></div></div>
@@ -263,17 +327,23 @@
       <div class="extra-card reveal" style="--tilt:-1.8deg">
         <img src="assets/shots/coloring_demo.jpg" alt="De kleurhoek met glitterpen en stickers" loading="lazy" decoding="async">
         <h3 data-i18n="extraColorTitle">Vrij kleuren</h3>
-        <p data-i18n="extraColorText">30 kleurplaten, een glitterpen, stickers en toverfilters — en de tekening bewaar je als echte foto.</p>
+        <p data-i18n="extraColorText">30 kleurplaten, een glitterpen, stickers en toverfilters. De tekening bewaar je daarna als echte foto.</p>
       </div>
       <div class="extra-card reveal" style="--tilt:1.4deg">
         <img src="assets/shots/alphabet.jpg" alt="Alle 26 schoolschrijfletters" loading="lazy" decoding="async">
         <h3 data-i18n="extraAbcTitle">Echte schoolletters</h3>
-        <p data-i18n="extraAbcText">Alle letters zijn met de hand gemaakt in het Nederlandse schoolschrift — geen computerletter.</p>
+        <p data-i18n="extraAbcText">De letters volgen het Nederlandse schoolschrift en zijn stuk voor stuk met de hand gemaakt.</p>
       </div>
       <div class="extra-card reveal" style="--tilt:-1.2deg">
         <img src="assets/shots/menu_es.jpg" alt="El menú en español" loading="lazy" decoding="async">
         <h3 data-i18n="extraLangTitle">Drie talen</h3>
-        <p data-i18n="extraLangText">Nederlands, Engels of Spaans — één knop in het ouderpaneel en het hele spel, stem en al, wisselt mee.</p>
+        <p data-i18n="extraLangText">Nederlands, Engels of Spaans: één knop in het ouderpaneel en het hele spel wisselt mee, stem en al.</p>
+      </div>
+      <div class="extra-card reveal" style="--tilt:1.8deg">
+        <img src="assets/shots/rewardroom.jpg" alt="De Sterrenboom vol cadeautjes" loading="lazy" decoding="async">
+        <h3 data-i18n="extraStarTitle">De Sterrenboom</h3>
+        <p data-i18n="extraStarText">Sterren sparen loont. Bij elke mijlpaal valt er een pakje uit de boom, met nieuw speelgoed of een kleurplaat erin.</p>
+        <img class="extra-cadeau" src="assets/art/cut_cadeau.png" alt="" aria-hidden="true">
       </div>
     </div>
   </div>
@@ -281,6 +351,7 @@
 
 <!-- ======================= de vriendjes ======================= -->
 <section class="friends" id="friends">
+  <div class="hearts" aria-hidden="true"><i>♥</i><i>♥</i><i>♥</i><i>♥</i><i>♥</i><i>♥</i></div>
   <div class="friends-inner">
     <h2 class="section-title playful reveal" data-i18n="friendsTitle">De vriendjes doen mee</h2>
     <p class="section-sub reveal" data-i18n="friendsSub">Charlie, Dilbi, Kaazie en Summi kijken mee bij elk level. Drie sterren? Applaus!</p>
@@ -298,10 +369,17 @@
   <div class="divider divider-ocean" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,55 C180,20 400,85 640,50 C900,15 1180,80 1440,45 L1440,90 L0,90 Z"/></svg></div>
   <img class="ocean-plate" src="assets/backdrops/ocean.jpg" alt="" loading="lazy" data-parallax="0.08">
   <div class="ocean-shafts" aria-hidden="true"><i></i><i></i><i></i></div>
-  <div class="bubbles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="bubbles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
   <img class="swimmer swim-dolfijn" src="assets/art/cut_dolfijn.png" alt="" aria-hidden="true">
   <img class="swimmer swim-vis" src="assets/art/cut_vis.png" alt="" aria-hidden="true">
   <img class="swimmer swim-schildpad" src="assets/art/cut_schildpad.png" alt="" aria-hidden="true">
+  <img class="swimmer swim-zeepaard" src="assets/art/cut_zeepaard.png" alt="" aria-hidden="true">
+  <img class="ocean-octopus" src="assets/art/cut_octopus.png" alt="" aria-hidden="true">
+  <img class="ocean-schatkist" src="assets/art/cut_schatkist.png" alt="" aria-hidden="true">
+  <div class="zeewier" aria-hidden="true">
+    <img src="assets/art/cut_zeewier.png" alt="">
+    <img src="assets/art/cut_zeewier.png" alt="">
+  </div>
   <div class="ocean-inner">
     <h2 class="section-title playful on-dark reveal" data-i18n="oceanTitle">Veilig als de diepe zee</h2>
     <p class="section-sub on-dark reveal" data-i18n="oceanSub">Summi School verzamelt niets. Alles blijft op jullie eigen apparaat.</p>
@@ -320,13 +398,16 @@
   <div class="divider divider-space" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,45 C260,85 500,20 760,55 C1020,85 1240,25 1440,55 L1440,90 L0,90 Z"/></svg></div>
   <img class="space-plate" src="assets/backdrops/space.jpg" alt="" loading="lazy">
   <div class="stars" aria-hidden="true"></div>
+  <div class="shooting-stars" aria-hidden="true"><i></i><i></i></div>
   <img class="space-raket" src="assets/art/cut_raket.png" alt="" aria-hidden="true">
   <img class="space-maan" src="assets/art/cut_maan.png" alt="" aria-hidden="true">
   <img class="space-alien" src="assets/art/cut_alien.png" alt="" aria-hidden="true">
+  <img class="space-ufo" src="assets/art/cut_ufo.png" alt="" aria-hidden="true">
+  <img class="space-satelliet" src="assets/art/cut_satelliet.png" alt="" aria-hidden="true">
   <div class="space-inner">
     <img class="space-logo" src="assets/logo.png" alt="Summi School logo">
     <p class="space-name">Summi School</p>
-    <p class="space-line" data-i18n="footerLine">Gemaakt met liefde — en heel veel gekleurd papier.</p>
+    <p class="space-line" data-i18n="footerLine">Gemaakt met liefde en heel veel gekleurd papier.</p>
     <div class="footer-links">
       <a href="privacy.html" data-i18n="footerPrivacy">Privacybeleid</a>
       <span>·</span>
