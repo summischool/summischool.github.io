@@ -1088,18 +1088,22 @@ section, footer { position: relative; }
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-end; /* feet on the same line, like in the app */
   gap: clamp(1.6rem, 5vw, 3.6rem);
 }
 .friend { text-align: center; }
 .friend img {
-  height: clamp(120px, 16vw, 165px);
+  height: calc(clamp(120px, 16vw, 165px) * var(--scale, 1));
   margin: 0 auto;
   animation: bob 4.6s ease-in-out infinite;
   filter: drop-shadow(0 8px 14px rgba(46, 71, 89, 0.20));
 }
+/* The family's relative heights, mirroring Mascot.heightScale in the app:
+   Charlie (14) a touch taller, baby Summi a touch smaller. */
+.friend:nth-child(1) img { --scale: 1.09; }
 .friend:nth-child(2) img { animation-delay: 0.5s; }
-.friend:nth-child(3) img { animation-delay: 1s; }
-.friend:nth-child(4) img { animation-delay: 1.5s; }
+.friend:nth-child(3) img { animation-delay: 1s; --scale: 0.98; }
+.friend:nth-child(4) img { animation-delay: 1.5s; --scale: 0.94; }
 .friend figcaption {
   margin-top: 0.7rem;
   display: inline-block;
