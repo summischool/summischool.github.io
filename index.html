@@ -3,97 +3,345 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Summi School — Privacybeleid / Privacy Policy / Política de privacidad</title>
-<style>
-  body {
-    font-family: -apple-system, "SF Pro Rounded", "Segoe UI", Verdana, sans-serif;
-    background: #fff6e8;
-    color: #2e4759;
-    max-width: 680px;
-    margin: 0 auto;
-    padding: 24px 20px 60px;
-    line-height: 1.6;
-  }
-  h1 { font-size: 1.6em; }
-  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 2px solid #f3d9a4; padding-bottom: 4px; }
-  .card {
-    background: #fffdf8;
-    border-radius: 16px;
-    padding: 18px 22px;
-    box-shadow: 0 2px 8px rgba(46, 71, 89, 0.10);
-    margin: 18px 0;
-  }
-  .muted { color: #6b7f8e; font-size: 0.9em; }
-</style>
+<title>Summi School — samen leren en spelen</title>
+<meta name="description" content="Summi School: spelenderwijs schrijven, rekenen, lezen en de wereld ontdekken voor kinderen van 3–5 jaar. In het Nederlands, Engels en Spaans. Geen account, geen tracking.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:title" content="Summi School — samen leren en spelen">
+<meta property="og:description" content="Vier vrolijke leerreizen voor kinderen van 3–5 jaar: schrijven, rekenen, woordjes en wereldkennis. In drie talen, zonder account of tracking.">
+<meta property="og:image" content="https://strike-wings-games.github.io/summischool/assets/og.jpg">
+<meta property="og:url" content="https://strike-wings-games.github.io/summischool/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body>
 
-<h1>🖍️ Summi School</h1>
-<p class="muted">Een app van / an app by <strong>Strike Wings Games</strong><br>
-Privacybeleid / Privacy policy — laatst bijgewerkt / last updated: 20&nbsp;juli&nbsp;2026</p>
+<!-- ======================= top bar (on the glass) ======================= -->
+<header class="topbar" id="topbar">
+  <a class="topbar-brand" href="#top" aria-label="Summi School">
+    <img class="topbar-logo" src="assets/logo.png" alt="" width="44" height="44">
+    <span class="topbar-name">Summi School</span>
+  </a>
+  <nav class="lang-switch" aria-label="Taal / Language / Idioma">
+    <button class="lang-pill" data-lang="nl" aria-label="Nederlands">🇳🇱<span>NL</span></button>
+    <button class="lang-pill" data-lang="en" aria-label="English">🇬🇧<span>EN</span></button>
+    <button class="lang-pill" data-lang="es" aria-label="Español">🇪🇸<span>ES</span></button>
+  </nav>
+</header>
 
-<h2>🇳🇱 Nederlands</h2>
-<div class="card">
-  <p><strong>Summi School verzamelt geen gegevens. Helemaal geen.</strong></p>
-  <ul>
-    <li>Geen account, geen registratie, geen inlog.</li>
-    <li>Geen tracking, geen analytics, geen advertentienetwerken.</li>
-    <li>De voortgang van je kind (sterren per level en de taalkeuze) wordt
-        alleen <strong>op het apparaat zelf</strong> bewaard en verlaat het
-        apparaat nooit.</li>
-    <li>De app maakt geen verbinding met internet en heeft geen servers.</li>
-    <li>De knop "foto" in de kleurhoek bewaart de tekening van je kind als
-        afbeelding in je eigen fotobibliotheek — dat gebeurt volledig op het
-        apparaat en alleen wanneer je er zelf op drukt (iOS vraagt hiervoor
-        eenmalig toestemming).</li>
-    <li>Er zijn geen aankopen in de app.</li>
-  </ul>
-  <p>Omdat er niets wordt verzameld, wordt er ook niets gedeeld, verkocht of
-     opgeslagen buiten je apparaat. Verwijder je de app, dan is alles weg.</p>
+<!-- ======================= hero — de eenhoornwei ======================= -->
+<section class="hero" id="top">
+  <div class="hero-sky"></div>
+  <img class="hero-plate" src="assets/backdrops/unicorn.jpg" alt="" data-parallax="0.12">
+
+  <!-- painted-on sky life -->
+  <div class="sun" data-parallax="0.05" aria-hidden="true">
+    <svg viewBox="0 0 120 120">
+      <g class="sun-rays">
+        <g fill="#FFC93D">
+          <rect x="55" y="0"  width="10" height="26" rx="5"/>
+          <rect x="55" y="94" width="10" height="26" rx="5"/>
+          <rect x="0"  y="55" width="26" height="10" rx="5"/>
+          <rect x="94" y="55" width="26" height="10" rx="5"/>
+          <rect x="16" y="16" width="10" height="26" rx="5" transform="rotate(-45 21 29)"/>
+          <rect x="94" y="16" width="10" height="26" rx="5" transform="rotate(45 99 29)"/>
+          <rect x="16" y="78" width="10" height="26" rx="5" transform="rotate(-135 21 91)"/>
+          <rect x="94" y="78" width="10" height="26" rx="5" transform="rotate(135 99 91)"/>
+        </g>
+      </g>
+      <circle cx="60" cy="60" r="34" fill="#FFD75E" stroke="#fff" stroke-width="4"/>
+      <circle cx="49" cy="55" r="4" fill="#2E4759"/>
+      <circle cx="71" cy="55" r="4" fill="#2E4759"/>
+      <path d="M50 67 Q60 76 70 67" stroke="#2E4759" stroke-width="4" stroke-linecap="round" fill="none"/>
+      <circle cx="42" cy="64" r="4.5" fill="#F9A8C5" opacity="0.8"/>
+      <circle cx="78" cy="64" r="4.5" fill="#F9A8C5" opacity="0.8"/>
+    </svg>
+  </div>
+  <img class="hero-cloud cloud-a" src="assets/art/cut_wolk.png" alt="" data-parallax="0.20">
+  <img class="hero-cloud cloud-b" src="assets/art/cut_wolk.png" alt="" data-parallax="0.30">
+  <img class="hero-cloud cloud-c" src="assets/art/cut_wolk.png" alt="" data-parallax="0.16">
+  <img class="hero-balloon" src="assets/art/cut_feestballon.png" alt="" data-parallax="0.24">
+  <img class="hero-butterfly" src="assets/art/cut_vlinder.png" alt="" data-parallax="0.28">
+
+  <!-- the big paper stack: title on the sky, rainbow rising behind the grass -->
+  <img class="hero-rainbow" src="assets/art/cut_regenboog.png" alt="" data-parallax="0.06">
+  <div class="hero-stack">
+    <h1 class="hero-title playful" data-i18n="heroTitle">Summi School</h1>
+    <p class="hero-tagline" data-i18n="heroTagline">samen leren en spelen</p>
+    <p class="hero-sub" data-i18n="heroSub">Vier vrolijke leerreizen voor kinderen van 3–5 jaar —
+       schrijven, rekenen, lezen en de wereld ontdekken. Volledig ingesproken
+       in het Nederlands, Engels en Spaans.</p>
+    <div class="hero-cta">
+      <a class="wood-sign" href="#journeys">
+        <span data-i18n="heroCta">Binnenkort in de App Store</span>
+      </a>
+      <p class="hero-cta-note" data-i18n="heroCtaNote">Geen account · geen reclame · geen tracking</p>
+    </div>
+  </div>
+  <img class="hero-unicorn" src="assets/art/cut_eenhoorn.png" alt="">
+
+  <!-- de optocht: the game's own sticker parade -->
+  <div class="parade" aria-hidden="true">
+    <div class="parade-track" id="parade"></div>
+  </div>
+</section>
+
+<!-- ======================= stats stickers ======================= -->
+<section class="stats" id="journeys">
+  <div class="stats-row">
+    <div class="stat-sticker reveal" style="--tilt:-2.4deg">
+      <span class="stat-number">4</span>
+      <span class="stat-label" data-i18n="statJourneys">leerreizen</span>
+    </div>
+    <div class="stat-sticker reveal" style="--tilt:1.8deg">
+      <span class="stat-number">1000</span>
+      <span class="stat-label" data-i18n="statLevels">levels</span>
+    </div>
+    <div class="stat-sticker reveal" style="--tilt:-1.6deg">
+      <span class="stat-number">3</span>
+      <span class="stat-label" data-i18n="statLanguages">talen</span>
+    </div>
+    <div class="stat-sticker reveal" style="--tilt:2.2deg">
+      <span class="stat-number">0</span>
+      <span class="stat-label" data-i18n="statTracking">tracking</span>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= schrijven — the whiteboard ======================= -->
+<section class="course course-write" id="schrijven">
+  <div class="divider divider-write" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,60 C240,20 480,90 720,55 C960,20 1200,80 1440,45 L1440,90 L0,90 Z"/></svg></div>
+  <div class="course-inner">
+    <div class="course-copy reveal">
+      <span class="course-chip chip-green" data-i18n="writeChip">leerreis 1</span>
+      <h2 class="course-title playful" data-i18n="writeTitle">Schrijven</h2>
+      <p class="course-sub" data-i18n="writeSub">Grote letters op het schoolbord</p>
+      <p class="course-text" data-i18n="writeText">Een vrolijk krijtje doet elke lijn voor — en dan
+         is je kind aan de beurt. 250 levels lang, van de allereerste <b>a</b>
+         tot hele woorden schrijven, met sterren, confetti en applaus van de
+         vriendjes.</p>
+      <ul class="course-points">
+        <li data-i18n="writeP1">Elke letterstreek wordt voorgedaan</li>
+        <li data-i18n="writeP2">Echte schoolschrijfletters</li>
+        <li data-i18n="writeP3">Nooit een foutscherm — gewoon nog een keer</li>
+      </ul>
+    </div>
+    <div class="course-art">
+      <figure class="device ipad reveal" style="--tilt:-2deg">
+        <img src="assets/shots/write_letter.jpg" alt="Schrijfles: een letter natrekken op het schoolbord" loading="lazy" decoding="async">
+      </figure>
+      <img class="float-sticker float-krijtje" src="assets/art/cut_krijtje.png" alt="" aria-hidden="true">
+      <img class="float-sticker float-potlood" src="assets/art/cut_potlood.png" alt="" aria-hidden="true">
+    </div>
+  </div>
+</section>
+
+<!-- ======================= rekenen — the beach ======================= -->
+<section class="course course-math" id="rekenen">
+  <div class="divider divider-math" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,45 C260,85 520,15 780,55 C1040,90 1240,25 1440,60 L1440,90 L0,90 Z"/></svg></div>
+  <div class="course-inner course-flip">
+    <div class="course-copy reveal">
+      <span class="course-chip chip-sky" data-i18n="mathChip">leerreis 2</span>
+      <h2 class="course-title playful" data-i18n="mathTitle">Rekenen</h2>
+      <p class="course-sub" data-i18n="mathSub">Tellen met appels en eieren</p>
+      <p class="course-text" data-i18n="mathText">Slepen, tikken en tellen met echte papieren
+         spulletjes: eerst tot 3, dan tot 20. Plus en min komen vanzelf — en
+         halverwege verschijnen de echte cijfers, tot aan 10 + 10 = 20.</p>
+      <ul class="course-points">
+        <li data-i18n="mathP1">Tellen, vergelijken, erbij en eraf</li>
+        <li data-i18n="mathP2">Elke som met vrolijke voorwerpen</li>
+        <li data-i18n="mathP3">Cijfers verschijnen precies op tijd</li>
+      </ul>
+    </div>
+    <div class="course-art">
+      <figure class="device ipad reveal" style="--tilt:2deg">
+        <img src="assets/shots/math_space_sum.jpg" alt="Rekenles: 6 + 4 = 10 met sterren in de ruimte" loading="lazy" decoding="async">
+      </figure>
+      <img class="float-sticker float-appel" src="assets/art/cut_appel.png" alt="" aria-hidden="true">
+      <img class="float-sticker float-ei" src="assets/art/cut_ei.png" alt="" aria-hidden="true">
+      <img class="float-sticker float-aardbei" src="assets/art/cut_aardbei.png" alt="" aria-hidden="true">
+    </div>
+  </div>
+</section>
+
+<!-- ======================= woordjes — the jungle ======================= -->
+<section class="course course-jungle" id="woordjes">
+  <div class="divider divider-jungle" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,55 C200,15 420,85 700,50 C980,15 1220,80 1440,40 L1440,90 L0,90 Z"/></svg></div>
+  <img class="jungle-plate" src="assets/backdrops/forest.jpg" alt="" loading="lazy" data-parallax="0.10">
+  <div class="jungle-beams" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="fireflies" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="course-inner">
+    <div class="course-copy reveal on-dark">
+      <span class="course-chip chip-jungle" data-i18n="wordsChip">leerreis 3</span>
+      <h2 class="course-title playful" data-i18n="wordsTitle">Woordjes</h2>
+      <p class="course-sub" data-i18n="wordsSub">Leren lezen in het Toverbos</p>
+      <p class="course-text" data-i18n="wordsText">Van <b>mama</b> en <b>papa</b> tot
+         <b>boom</b>, <b>roos</b> en <b>vos</b>: je kind leert woordjes
+         herkennen, bouwen en lezen, letter voor letter. En helemaal aan het
+         eind worden twee woordjes één — regen + boog = regenboog!</p>
+      <ul class="course-points">
+        <li data-i18n="wordsP1">Plaatje en woord horen bij elkaar</li>
+        <li data-i18n="wordsP2">Woorden bouwen, letter voor letter</li>
+        <li data-i18n="wordsP3">Elke letter wordt voorgelezen</li>
+      </ul>
+    </div>
+    <div class="course-art">
+      <figure class="device ipad reveal" style="--tilt:-1.6deg">
+        <img src="assets/shots/words_leesplankje.jpg" alt="Leesles in het Toverbos" loading="lazy" decoding="async">
+      </figure>
+      <img class="float-sticker float-vos" src="assets/art/cut_vos.png" alt="" aria-hidden="true">
+      <img class="float-sticker float-uil" src="assets/art/cut_uil.png" alt="" aria-hidden="true">
+      <img class="float-sticker float-paddenstoel" src="assets/art/cut_paddenstoel.png" alt="" aria-hidden="true">
+    </div>
+  </div>
+</section>
+
+<!-- ======================= wereld — the mountains ======================= -->
+<section class="course course-world" id="wereld">
+  <div class="divider divider-world" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,40 C240,80 460,20 720,60 C980,90 1200,20 1440,55 L1440,90 L0,90 Z"/></svg></div>
+  <div class="course-inner course-flip">
+    <div class="course-copy reveal">
+      <span class="course-chip chip-world" data-i18n="wkChip">leerreis 4</span>
+      <h2 class="course-title playful" data-i18n="wkTitle">Wereld</h2>
+      <p class="course-sub" data-i18n="wkSub">Weten hoe alles heet</p>
+      <p class="course-text" data-i18n="wkText">Wat eet de muis? Bij wie hoort het kuiken? Tien
+         werelden vol weetjes: de boerderij, je eigen lijf, het bos en het
+         weer, de zee, de ruimte — tot aan de regenboog.</p>
+      <ul class="course-points">
+        <li data-i18n="wkP1">Luister-, sleep- en zoekvragen</li>
+        <li data-i18n="wkP2">Trek de lijn van het kuiken naar de kip</li>
+        <li data-i18n="wkP3">De vulkaan barst écht uit</li>
+      </ul>
+    </div>
+    <div class="course-art">
+      <figure class="device ipad reveal" style="--tilt:1.8deg">
+        <img src="assets/shots/wk_farm.jpg" alt="Wereldles: wat eet de muis?" loading="lazy" decoding="async">
+      </figure>
+      <img class="float-sticker float-koe" src="assets/art/cut_koe.png" alt="" aria-hidden="true">
+      <img class="float-sticker float-kuiken" src="assets/art/cut_kuiken.png" alt="" aria-hidden="true">
+      <img class="float-sticker float-aardbol" src="assets/art/cut_planeet.png" alt="" aria-hidden="true">
+    </div>
+  </div>
+</section>
+
+<!-- ======================= gameplay video ======================= -->
+<section class="cinema" id="video">
+  <div class="divider divider-cinema" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,50 C280,15 560,85 840,45 C1100,15 1300,75 1440,50 L1440,90 L0,90 Z"/></svg></div>
+  <div class="cinema-inner">
+    <h2 class="section-title playful on-dark reveal" data-i18n="videoTitle">Kijk eens mee</h2>
+    <p class="section-sub on-dark reveal" data-i18n="videoSub">Zo speelt Summi School: rustig, vrolijk en zonder haast.</p>
+    <div class="tv reveal">
+      <video id="gameplay" playsinline muted loop preload="metadata"
+             poster="assets/shots/menu_nl.jpg">
+        <source src="assets/video/gameplay.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= gallery — sticker album ======================= -->
+<section class="gallery" id="gallery">
+  <div class="divider divider-gallery" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,45 C220,85 480,15 740,55 C1000,88 1240,25 1440,60 L1440,90 L0,90 Z"/></svg></div>
+  <div class="gallery-head">
+    <h2 class="section-title playful reveal" data-i18n="galleryTitle">Uit het prentenboek</h2>
+    <p class="section-sub reveal" data-i18n="gallerySub">Elke wereld is met de hand geknipt en geplakt — blader maar door.</p>
+  </div>
+  <div class="shelf" data-drift="left"><div class="shelf-track" id="shelf1"></div></div>
+  <div class="shelf" data-drift="right"><div class="shelf-track" id="shelf2"></div></div>
+  <div class="shelf shelf-phones" data-drift="left"><div class="shelf-track" id="shelf3"></div></div>
+</section>
+
+<!-- ======================= extra's ======================= -->
+<section class="extras" id="extras">
+  <div class="extras-inner">
+    <h2 class="section-title playful reveal" data-i18n="extrasTitle">En er is nog meer</h2>
+    <div class="extras-row">
+      <div class="extra-card reveal" style="--tilt:-1.8deg">
+        <img src="assets/shots/coloring_demo.jpg" alt="De kleurhoek met glitterpen en stickers" loading="lazy" decoding="async">
+        <h3 data-i18n="extraColorTitle">Vrij kleuren</h3>
+        <p data-i18n="extraColorText">30 kleurplaten, een glitterpen, stickers en toverfilters — en de tekening bewaar je als echte foto.</p>
+      </div>
+      <div class="extra-card reveal" style="--tilt:1.4deg">
+        <img src="assets/shots/alphabet.jpg" alt="Alle 26 schoolschrijfletters" loading="lazy" decoding="async">
+        <h3 data-i18n="extraAbcTitle">Echte schoolletters</h3>
+        <p data-i18n="extraAbcText">Alle letters zijn met de hand gemaakt in het Nederlandse schoolschrift — geen computerletter.</p>
+      </div>
+      <div class="extra-card reveal" style="--tilt:-1.2deg">
+        <img src="assets/shots/menu_es.jpg" alt="El menú en español" loading="lazy" decoding="async">
+        <h3 data-i18n="extraLangTitle">Drie talen</h3>
+        <p data-i18n="extraLangText">Nederlands, Engels of Spaans — één knop in het ouderpaneel en het hele spel, stem en al, wisselt mee.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= de vriendjes ======================= -->
+<section class="friends" id="friends">
+  <div class="friends-inner">
+    <h2 class="section-title playful reveal" data-i18n="friendsTitle">De vriendjes doen mee</h2>
+    <p class="section-sub reveal" data-i18n="friendsSub">Charlie, Dilbi, Kaazie en Summi kijken mee bij elk level. Drie sterren? Applaus!</p>
+    <div class="friends-row">
+      <figure class="friend reveal"><img src="assets/art/mascot_charlie_joy.png" alt="Charlie"><figcaption>Charlie</figcaption></figure>
+      <figure class="friend reveal"><img src="assets/art/mascot_dilbi_joy.png" alt="Dilbi"><figcaption>Dilbi</figcaption></figure>
+      <figure class="friend reveal"><img src="assets/art/mascot_kaazie_joy.png" alt="Kaazie"><figcaption>Kaazie</figcaption></figure>
+      <figure class="friend reveal"><img src="assets/art/mascot_summi_idle.png" alt="Summi"><figcaption>Summi</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= ocean — veilig & privé ======================= -->
+<section class="ocean" id="privacy">
+  <div class="divider divider-ocean" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,55 C180,20 400,85 640,50 C900,15 1180,80 1440,45 L1440,90 L0,90 Z"/></svg></div>
+  <img class="ocean-plate" src="assets/backdrops/ocean.jpg" alt="" loading="lazy" data-parallax="0.08">
+  <div class="ocean-shafts" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="bubbles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <img class="swimmer swim-dolfijn" src="assets/art/cut_dolfijn.png" alt="" aria-hidden="true">
+  <img class="swimmer swim-vis" src="assets/art/cut_vis.png" alt="" aria-hidden="true">
+  <img class="swimmer swim-schildpad" src="assets/art/cut_schildpad.png" alt="" aria-hidden="true">
+  <div class="ocean-inner">
+    <h2 class="section-title playful on-dark reveal" data-i18n="oceanTitle">Veilig als de diepe zee</h2>
+    <p class="section-sub on-dark reveal" data-i18n="oceanSub">Summi School verzamelt niets. Alles blijft op jullie eigen apparaat.</p>
+    <div class="promise-row">
+      <div class="promise reveal" style="--tilt:-2deg"><span class="promise-emoji">🎈</span><span data-i18n="promiseAds">Geen reclame</span></div>
+      <div class="promise reveal" style="--tilt:1.6deg"><span class="promise-emoji">🙈</span><span data-i18n="promiseTracking">Geen tracking</span></div>
+      <div class="promise reveal" style="--tilt:-1.4deg"><span class="promise-emoji">🔑</span><span data-i18n="promiseAccount">Geen account</span></div>
+      <div class="promise reveal" style="--tilt:2.2deg"><span class="promise-emoji">🛒</span><span data-i18n="promisePurchases">Geen aankopen</span></div>
+    </div>
+    <a class="privacy-link reveal" href="privacy.html" data-i18n="oceanCta">Lees het hele privacybeleid</a>
+  </div>
+</section>
+
+<!-- ======================= footer — de ruimte ======================= -->
+<footer class="space" id="contact">
+  <div class="divider divider-space" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,45 C260,85 500,20 760,55 C1020,85 1240,25 1440,55 L1440,90 L0,90 Z"/></svg></div>
+  <img class="space-plate" src="assets/backdrops/space.jpg" alt="" loading="lazy">
+  <div class="stars" aria-hidden="true"></div>
+  <img class="space-raket" src="assets/art/cut_raket.png" alt="" aria-hidden="true">
+  <img class="space-maan" src="assets/art/cut_maan.png" alt="" aria-hidden="true">
+  <img class="space-alien" src="assets/art/cut_alien.png" alt="" aria-hidden="true">
+  <div class="space-inner">
+    <img class="space-logo" src="assets/logo.png" alt="Summi School logo">
+    <p class="space-name">Summi School</p>
+    <p class="space-line" data-i18n="footerLine">Gemaakt met liefde — en heel veel gekleurd papier.</p>
+    <div class="footer-links">
+      <a href="privacy.html" data-i18n="footerPrivacy">Privacybeleid</a>
+      <span>·</span>
+      <a href="mailto:gbvanrenswoude@gmail.com" data-i18n="footerContact">Contact</a>
+    </div>
+    <p class="space-copyright">© 2026 Strike Wings Games</p>
+  </div>
+</footer>
+
+<!-- lightbox -->
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" id="lightboxClose" aria-label="Sluiten">✕</button>
+  <img id="lightboxImg" src="" alt="">
 </div>
 
-<h2>🇬🇧 English</h2>
-<div class="card">
-  <p><strong>Summi School collects no data. None at all.</strong></p>
-  <ul>
-    <li>No account, no sign-up, no login.</li>
-    <li>No tracking, no analytics, no advertising networks.</li>
-    <li>Your child's progress (stars per level and the language setting) is
-        stored <strong>on the device only</strong> and never leaves it.</li>
-    <li>The app makes no internet connections and has no servers.</li>
-    <li>The "photo" button in the coloring corner saves your child's drawing
-        as an image to your own photo library — entirely on the device, and
-        only when you tap it (iOS asks for permission once).</li>
-    <li>There are no in-app purchases.</li>
-  </ul>
-  <p>Because nothing is collected, nothing is ever shared, sold, or stored
-     outside your device. Delete the app and everything is gone.</p>
-</div>
-
-<h2>🇪🇸 Español</h2>
-<div class="card">
-  <p><strong>Summi School no recopila ningún dato. Ninguno.</strong></p>
-  <ul>
-    <li>Sin cuenta, sin registro, sin inicio de sesión.</li>
-    <li>Sin rastreo, sin analíticas, sin redes publicitarias.</li>
-    <li>El progreso de tu hijo (estrellas por nivel y el idioma elegido) se
-        guarda <strong>solo en el dispositivo</strong> y nunca sale de él.</li>
-    <li>La app no se conecta a internet y no tiene servidores.</li>
-    <li>El botón "foto" del rincón de colorear guarda el dibujo de tu hijo
-        como imagen en tu propia fototeca — todo ocurre en el dispositivo y
-        solo cuando tú lo pulsas (iOS pide permiso una sola vez).</li>
-    <li>No hay compras dentro de la app.</li>
-  </ul>
-  <p>Como no se recopila nada, nada se comparte, se vende ni se guarda fuera
-     de tu dispositivo. Si borras la app, todo desaparece.</p>
-</div>
-
-<h2>Contact</h2>
-<div class="card">
-  <p>Strike Wings Games<br>
-  Vragen over dit beleid? / Questions about this policy?<br>
-  📧 <a href="mailto:gbvanrenswoude@gmail.com">gbvanrenswoude@gmail.com</a></p>
-</div>
-
+<script src="assets/js/site.js"></script>
 </body>
 </html>
