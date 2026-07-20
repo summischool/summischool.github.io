@@ -1242,7 +1242,7 @@ section, footer { position: relative; }
   transition: transform 0.3s var(--spring);
 }
 .promise:hover { transform: rotate(var(--tilt, 0deg)) scale(1.07); }
-.promise-emoji { font-size: 1.9rem; }
+.promise-sticker { height: 62px; width: auto; }
 .privacy-link {
   display: block;
   width: fit-content;

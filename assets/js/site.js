@@ -69,7 +69,7 @@
       oceanTitle: "Veilig als de diepe zee",
       oceanSub: "Summi School verzamelt niets. Alles blijft op jullie eigen apparaat.",
       promiseAds: "Geen reclame", promiseTracking: "Geen tracking",
-      promiseAccount: "Geen account", promisePurchases: "Geen aankopen",
+      promiseAccount: "Geen account",
       oceanCta: "Lees het hele privacybeleid",
       footerLine: "Gemaakt met liefde en heel veel gekleurd papier.",
       footerPrivacy: "Privacybeleid", footerContact: "Contact"
@@ -132,7 +132,7 @@
       oceanTitle: "Safe as the deep sea",
       oceanSub: "Summi School collects nothing. Everything stays on your own device.",
       promiseAds: "No ads", promiseTracking: "No tracking",
-      promiseAccount: "No account", promisePurchases: "No purchases",
+      promiseAccount: "No account",
       oceanCta: "Read the full privacy policy",
       footerLine: "Made with love and a whole lot of colored paper.",
       footerPrivacy: "Privacy policy", footerContact: "Contact"
@@ -195,7 +195,7 @@
       oceanTitle: "Seguro como el fondo del mar",
       oceanSub: "Summi School no recopila nada. Todo se queda en vuestro dispositivo.",
       promiseAds: "Sin anuncios", promiseTracking: "Sin rastreo",
-      promiseAccount: "Sin cuenta", promisePurchases: "Sin compras",
+      promiseAccount: "Sin cuenta",
       oceanCta: "Lee la política de privacidad completa",
       footerLine: "Hecho con amor y muchísimo papel de colores.",
       footerPrivacy: "Política de privacidad", footerContact: "Contacto"
